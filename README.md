@@ -252,9 +252,7 @@
           savedResults.push({ name, email, result, code });
           console.log(savedResults);
 
-          // TODO: Gửi email tự động (bạn có thể cung cấp EmailJS info để mình tích hợp)
-        }
-      }
+          
 
       requestAnimationFrame(animate);
     });
